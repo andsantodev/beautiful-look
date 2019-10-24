@@ -1,0 +1,91 @@
+body{
+  
+}
+
+/* --- SESSION --- */
+#session .row-01 img{
+	height: 300px;
+}
+#session .row-02 img{
+	height: 280px;
+}
+#session img{
+	width: 100%;
+	object-position: 50% 15%;
+	object-fit: cover;
+}
+
+/* --- BRANDS --- */
+#brands .row{
+	min-height: 400px;
+}
+#brands .box-01,
+#brands .box-02,
+#brands .box-03{
+	background-size: cover !important;
+	background-position: 50% 40% !important;
+}
+#brands .box-01{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/image-01.jpg);
+}
+#brands .box-02{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/image-07.jpg);
+}
+#brands .box-03{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/image-12.jpg);
+}
+
+/* --- PROMO --- */
+#promo .row{
+	min-height: 220px;
+}
+#promo .box-01,
+#promo .box-02{
+	background-size: cover !important;
+	background-position: 50% 15% !important;
+}
+#promo .box-01{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/image-08.jpg);
+}
+#promo .box-02{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagens/image-14.jpg);
+}
+
+/* --- INSTAGRAM --- */
+#instagram img{
+	height: 230px;
+	object-fit: cover;
+}
+
+
+/* -------------------------- media queires -------------------------- */
+/* CLASSE ESPECIAL PARA A FONTE DO PROGRESS CIRCLE "HTML E CSS" */
+@media screen and (min-width: 1441px) and (max-width: 2560px){
+  	
+}
+
+/* monitores com largura de até 991px */
+@media screen and (max-width: 991.98px) {
+  
+}
+
+/* tablets com largura de até até 767px */
+@media screen and (max-width: 767.98px) {
+  
+}
+
+/* celulares com largura de até 575px */
+@media screen and (max-width: 575.98px) {
+	h2{
+		font-size: 22px;
+	}
+	#brands .row{
+		min-height: 800px;
+	}
+	#promo .row{
+		min-height: 440px;
+	}
+	#instagram img{
+		height: 150px;
+	}
+}
